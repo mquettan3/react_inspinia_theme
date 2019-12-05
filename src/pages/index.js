@@ -54,7 +54,7 @@ const IndexPage = () => {
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                         </button>
-                        <a className="navbar-brand" href="#">WEBAPPLAYERS</a>
+                        <a className="navbar-brand" href="#page-top" onClick={handleNavMenuItemClick}>WEBAPPLAYERS</a>
                     </div>
                     <div id="navbar" className="navbar-collapse collapse">
                       <Scrollspy className="nav navbar-nav navbar-right" items={['page-top', 'features', 'team', 'testimonials', 'pricing', 'contact']} currentClassName="active">
